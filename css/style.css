@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kumbh+Sans&family=Rubik:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(226, 43%, 10%);
+}
+
+.app {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+
+/* container styling */
+
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-auto-rows: minmax(400px, auto); */
+    grid-template-areas: "profile work play study" "profile exercise social selfCare";
+}
+
+
+/* profile section styling */
+
+#profile {
+    grid-area: profile;
+}
+
+.personalInfo {
+    background: hsl(235, 45%, 61%);
+    border-radius: 10px;
+    padding-top: 2rem;
+    color: white;
+}
+
+#profileImage {
+    width: 50%;
+    padding-left: 1.5rem;
+}
+
+.details {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2.8rem;
+    font-size: 2.5rem;
+}
+
+#parag1 {
+    font-size: 1rem;
+}
+
+.report {
+    background: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0.5rem 0.5rem;
+}
+
+
+/* work section styling */
+
+#work {
+    grid-area: work;
+}
+
+#activity1 {
+    background: hsl(15, 100%, 70%);
+    border-radius: 10px;
+}
+
+#workImage {
+    position: relative;
+    left: 8.2rem;
+    top: rem;
+}
+
+.activity1 {
+    border-radius: 10px;
+    display: grid;
+    padding-top: 1rem;
+    grid-template-columns: 2fr 1fr;
+}
+
+.workSection {
+    background: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    margin-top: -2.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.hours {
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+/* play section styling */
+
+#play {
+    grid-area: play;
+}
+
+#activity2 {
+    background: hsl(195, 74%, 62%);
+    border-radius: 0.5rem;
+}
+
+.playSection {
+    border-radius: 0.5rem;
+    color: #fff;
+    background: hsl(235, 46%, 20%);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -2.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* study section styling */
+
+#study {
+    grid-area: study;
+}
+
+#activity3 {
+    background: hsl(348, 100%, 68%);
+    border-radius: 0.5rem;
+}
+
+.studySection {
+    background: hsl(235, 46%, 20%);
+    border-radius: 0.5rem;
+    color: #fff;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -2.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* exercise section styling */
+
+#exercise {
+    grid-area: exercise;
+}
+
+#workImage4 {
+    position: relative;
+    left: 8.2rem;
+    top: -0.1rem;
+}
+
+#activity4 {
+    background: hsl(145, 58%, 55%);
+    border-radius: 0.5rem;
+}
+
+.exerciseSection {
+    background: hsl(235, 46%, 20%);
+    border-radius: 0.5rem;
+    color: #fff;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -0.8rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* social section styling */
+
+#social {
+    grid-area: social;
+}
+
+#workImage5 {
+    position: relative;
+    left: 8.2rem;
+    top: -0.2rem;
+}
+
+#activity5 {
+    background: hsl(264, 64%, 52%);
+    border-radius: 0.5rem;
+}
+
+.socialSection {
+    background: hsl(235, 46%, 20%);
+    border-radius: 0.5rem;
+    color: #fff;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -3.7rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* self care section styling */
+
+#selfCare {
+    grid-area: selfCare;
+}
+
+#workImage6 {
+    position: relative;
+    left: 8.2rem;
+    top: 0.1rem;
+}
+
+#activity6 {
+    background: hsl(43, 84%, 65%);
+    border-radius: 0.5rem;
+}
+
+.selfCareSection {
+    background: hsl(235, 46%, 20%);
+    border-radius: 0.5rem;
+    color: #fff;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -1.7rem;
+    position: relative;
+    z-index: 1;
+}
