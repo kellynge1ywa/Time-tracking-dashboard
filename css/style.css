@@ -11,7 +11,7 @@ body {
 }
 
 .app {
-    max-width: 960px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 3rem;
 }
@@ -23,6 +23,7 @@ body {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 60vh;
     /* grid-auto-rows: minmax(400px, auto); */
     grid-template-areas: "profile work play study" "profile exercise social selfCare";
 }
