@@ -64,6 +64,14 @@ body {
     padding-top: 1rem;
 }
 
+.timeframe {
+    color: rgb(165, 161, 161);
+}
+
+.active-basis {
+    color: #fff;
+}
+
 ul li {
     list-style-type: none;
     padding: 0.5rem 0.5rem;
